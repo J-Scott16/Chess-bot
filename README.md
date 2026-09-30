@@ -9,7 +9,6 @@ A UCI chess engine written in C++, built on top of [Disservin's `chess.hpp`](htt
 - Opening book support (`gm2001.bin`, Polyglot format)
 - Syzygy endgame tablebase probing via [Fathom](https://github.com/jdart1/Fathom)
 - UCI protocol support
-- Lichess bot compatible
 
 ## Project Structure
 
@@ -63,10 +62,6 @@ go movetime 1000
 
 If you're missing either file, Syzygy tablebases can be downloaded from [syzygy-tables.info](https://syzygy-tables.info/) and Polyglot books are widely available online.
 
-## Playing on Lichess
-
-The engine runs on Lichess through [lichess-bot](https://github.com/lichess-bot-devs/lichess-bot). Set the engine path to `engine.exe` in lichess-bot's `config.yml`, add your bot account's API token, and start the bot.
-
 ## Testing
 
 Match results are tested against other engines (e.g. Stockfish with limited strength) using tools such as Cute Chess and BayesElo to estimate Elo.
@@ -77,6 +72,3 @@ Match results are tested against other engines (e.g. Stockfish with limited stre
 - [Fathom](https://github.com/jdart1/Fathom) for Syzygy tablebase probing
 - [Stockfish](https://stockfishchess.org/) for testing opponents
 
-## License
-
-Add a license here (e.g. MIT) if you want others to reuse the code.
