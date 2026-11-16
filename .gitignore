@@ -1,1 +1,28 @@
+# Build outputs
 *.exe
+*.o
+*.obj
+*.dll
+*.pdb
+*.ilk
+*.exp
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Big data files - download separately, do not commit
+gm2001.bin
+3-4-5endgame/
+*.rtbw
+*.rtbz
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
